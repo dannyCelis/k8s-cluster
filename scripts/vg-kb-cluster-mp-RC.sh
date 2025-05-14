@@ -1,6 +1,6 @@
 echo "# Configuración de Red Hat"
 sudo subscription-manager clean
-sudo subscription-manager register --username=rgaguedo@gmail.com --password=Chimichanga01$
+sudo subscription-manager register --username=[USERNAME] --password=[PASSWORD]
 sudo subscription-manager repos --enable=rhel-8-for-x86_64-baseos-rpms --enable=rhel-8-for-x86_64-appstream-rpms
 
 # echo "# Paso 0: Se crea el hostname de acuerdo al parametro enviado"
